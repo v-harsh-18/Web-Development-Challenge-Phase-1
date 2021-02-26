@@ -20,4 +20,4 @@ Screenshot(320).png - Shows the use of Javascript which pops out the alert box o
 
 The folder includes the HTML, CSS and Javascript files used in the project.
 
-Mobile.png - Shows the main webpage
+Mobile Site.png - Shows the main webpage
