@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <title>Form for joining Community to spread awareness</title>
+        <link href="formstyle.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <h1>Join The Community</h1>
+        <div>              
+                <p id="name">Full Name:</p>
+                <input type="text" autocomplete="off" id = "nameinput" placeholder="Enter your entire name" autofocus>
+                <i class="fa fa-user fa-lg fa-fw" id="usericon"></i>
+                <p id="email">Enter Your Email id:</p>
+                <input type="text" autocomplete="off" id="emailinput" placeholder="abc@example.com">
+                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true" id="emailicon"></i>
+                <button id="Submit_button">Submit</button>    
+        </div>
+        <p id="feedback1"></p>
+        <form action="index.html">
+            <input type="submit" id="return_homepage" value="Return to home page">
+        </form>
+    </body>
+</html>
